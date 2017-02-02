@@ -6,3 +6,5 @@ At high velocity the ball pass through the flippers. I thank that bullet mode wi
 You can change to isBullet by clicking the checkbox bottom left.
 
 If you have any idea on how a reliable collision can be handled please let me know!!  :)
+
+test here : http://games.boorik.com/pinball-issue/
