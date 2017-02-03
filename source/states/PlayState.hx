@@ -69,6 +69,11 @@ class PlayState extends FlxState
 		infos.addFormat(new FlxTextFormat(FlxColor.BLACK));
 		add(infos);
 		
+		var instructionText = new FlxText(0, 0, FlxG.width, "Use SPACE to activate", 10);
+		instructionText.alignment = FlxTextAlign.CENTER;
+		instructionText.setFormat(null, 10, FlxColor.BLACK);
+		add(instructionText);
+		
 		bulletCheckBox = new FlxUICheckBox(10, FlxG.height - 30, null, null, "isBullet", 100, null, onBulletClick);
 		bulletCheckBox.getLabel().setFormat(null, 16);
 		add(bulletCheckBox);
